@@ -1,5 +1,14 @@
 package go_scaffold
 
-func TestFunc(a, b int) int {
-	return a + b
+type Go_Scaffold struct {
+	App_name string
+	Mode bool
+	Version string
 }
+
+
+func (g *Go_Scaffold) New(app_path string) error {
+
+}
+
+func (g )
